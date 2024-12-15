@@ -1,0 +1,106 @@
+.bmi-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.bmi-header {
+  background-color: #d540e9;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+
+.bmi-header img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.bmi-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.bmi-inputs {
+  margin: 20px 0;
+}
+
+.bmi-inputs input {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #d540e9;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.bmi-buttons {
+  margin-bottom: 20px;
+}
+
+.bmi-buttons button {
+  background-color: white;
+  color: #d540e9;
+  border: 2px solid #d540e9;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bmi-buttons button:hover {
+  background-color: #d540e9;
+  color: white;
+}
+
+.bmi-result {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.bmi-result span.underweight {
+  color: blue;
+}
+
+.bmi-result span.healthy {
+  color: green;
+}
+
+.bmi-result span.overweight {
+  color: orange;
+}
+
+.bmi-result span.obese {
+  color: red;
+}
+
+.bmi-chart {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.bmi-chart p {
+  margin: 5px 0;
+}
+
+.bmi-chart .underweight {
+  color: blue;
+}
+
+.bmi-chart .healthy {
+  color: green;
+}
+
+.bmi-chart .overweight {
+  color: orange;
+}
+
+.bmi-chart .obese {
+  color: red;
+}
